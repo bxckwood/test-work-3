@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Test Work by Ginoice</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <div class="first-block">
+          <div class="first-block__line"></div>
+          <div class="first-block__div">
+            <label for="first-block-1" onsubmit="1" class="first-block__label"
+              >Имя</label
+            >
+            <input id="first-block-1" class="first-block__input" />
+          </div>
+          <div class="first-block__div">
+            <label for="first-block-2" class="first-block__label"
+              >Ник в Telegram</label
+            >
+            <input id="first-block-2" class="first-block__input" />
+          </div>
+          <div class="first-block__div">
+            <label for="first-block-3" class="first-block__label"
+              >Ссылка на репозиторий этого задания</label
+            >
+            <input id="first-block-3" class="first-block__input" />
+          </div>
+          <div class="first-block__div">
+            <label for="first-block-4" class="first-block__label"
+              >Что вы точно не хотите делать в работе, что делаете с
+              неохотой?</label
+            >
+            <input id="first-block-4" class="first-block__input" />
+          </div>
+        </div>
+        <div class="second-block">
+          <div class="second-block__line"></div>
+          <div class="second-block__div">
+            <h1 class="second-block__h1">
+              Как вы оцениваете свою способность взаимодействовать с дизайном?
+            </h1>
+            <p class="second-block__p">
+              А именно, работу с векторами, внимательность к деталям,
+              возможность проявить инициативу - например, можете ли сверстать
+              макет адаптируя его для мобильных устройств с макета под десктоп?
+            </p>
+            <input
+              type="range"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="progress"
+            />
+            <span class="progress-first">50%</span>
+            <div class="progress-down">
+              <span>0</span>
+              <span>100%</span>
+            </div>
+            <div class="second-block__div2">
+              <label class="second-block__label2" for="second-block-2"
+                >Ваш комментарий (по желанию)
+              </label>
+              <input id="second-block-2" class="second-block__input2" />
+            </div>
+          </div>
+        </div>
+        <div class="third-block">
+          <div class="third-block__line"></div>
+          <div class="third-block__div">
+            <h1 class="third-block__h1">Готовы ли работать с CSS анимацией?</h1>
+            <p class="third-block__p">
+              Часто нужна несложная CSS анимация без сторонних библиотек для
+              сопровождения какого-либо действия или плавной подачи информации,
+              но без фанатизма ))
+            </p>
+            <input
+              type="range"
+              value="50"
+              min="0"
+              max="100"
+              step="1"
+              class="progress-second"
+            />
+            <span class="progress2">50%</span>
+            <div class="progress-down">
+              <span>0</span>
+              <span>100%</span>
+            </div>
+            <div class="third-block__div2">
+              <label class="third-block__label2" for="third-block-2"
+                >Ваш комментарий (по желанию)
+              </label>
+              <input id="third-block-2" class="third-block__input2" />
+            </div>
+          </div>
+        </div>
+        <div class="fourth-block">
+          <div class="fourth-block__line"></div>
+          <div class="fourth-block__div">
+            <label for="fourth-block" class="fourth-block__label"
+              >Как вы относитесь к рутинной работе?</label
+            >
+            <input id="fourth-block" class="fourth-block__input" />
+          </div>
+        </div>
+        <div class="fifth-block">
+          <div class="fifth-block__line"></div>
+          <div class="fifth-block__div">
+            <label for="fifth-block" class="fifth-block__label"
+              >Готовы ли посвятить все 100% своего времени на работу с нашими
+              задачами, не отвлекаясь на стороннюю разработку?</label
+            >
+            <input id="fifth-block" class="fifth-block__input" />
+          </div>
+        </div>
+        <button type="submit" class="button">ОТПРАВИТЬ</button>
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
